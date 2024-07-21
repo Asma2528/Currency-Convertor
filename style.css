@@ -1,0 +1,137 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: url('currency.webp') no-repeat center center fixed;
+    background-size: cover; 
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.archivo-font {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.container{
+    background-color: #ffffff1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:70vh;
+    min-height:65vh;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    border-radius: 1rem;
+    padding:1rem;
+}
+
+.heading{
+line-height: 5rem;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.convert{
+    display: flex;
+    align-items: center;
+    gap:2.5rem;
+}
+
+.amount-input{
+display: flex;
+flex-direction: column;
+gap:0.5rem;
+}
+
+form input{
+    border: 1px solid #ffffff59;
+    background-color: #ffffff2c;
+    outline: none;
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+form select, select option{
+border: none;
+background-color: #ffffff00;
+outline: none;
+padding:0.5rem;
+border-radius: 0.4rem;
+color: white;
+}
+
+
+.myForm i{
+font-size: 1.3rem;
+margin-top: 1.3rem;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    
+    
+}
+
+select option {
+    background-color: #5e606a;
+}
+
+select{
+
+    overflow: auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.1rem 0.4rem;
+    border: 1px solid #ffffff59;
+    background-color: #ffffff2c;
+    border-radius: 0.4rem;
+    max-width:6rem;
+}
+.box img{
+    width:2rem;
+}
+
+.btn{
+    cursor: pointer;
+    margin:auto;
+    border: none;
+    outline: none;
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    width:100%;
+    color: rgb(0, 11, 44);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    padding:0.5rem;
+    background-color: #ffffff39;
+    color: rgb(0, 11, 44);
+    border-radius: 0.4rem;
+    font-weight: 600;
+}
